@@ -2,6 +2,7 @@ AccessModifierOffset: -4
 AlignAfterOpenBracket: BlockIndent
 BasedOnStyle: Microsoft
 BreakTemplateDeclarations: Yes
+ColumnLimit: 100
 IndentWidth: 4
 NamespaceIndentation: All
 PointerAlignment: Left
