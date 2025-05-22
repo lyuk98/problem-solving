@@ -16,6 +16,7 @@ pkgs.callPackage (
 
       # Rust
       rustc
+      cargo
       rustfmt
       clippy
       rust-analyzer
