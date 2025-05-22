@@ -112,3 +112,6 @@ xcuserdata/
 *.exe
 *.out
 *.app
+
+# Cached index created by ccls
+.ccls-cache
