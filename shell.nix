@@ -14,6 +14,9 @@ pkgs.callPackage (
     nativeBuildInputs = with pkgs; [
       git
 
+      # Java
+      jdk
+
       # Rust
       rustc
       cargo
