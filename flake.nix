@@ -20,6 +20,7 @@
         { pkgs, ... }:
         {
           devShells.default = import ./shell.nix { inherit pkgs; };
+          packages = import ./packages { inherit pkgs; };
         };
     };
 }
