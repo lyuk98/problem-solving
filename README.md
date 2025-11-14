@@ -37,7 +37,7 @@ The packages' names can be found by using `nix repl`:
 ```sh
 nix repl
 :lf github:lyuk98/problem-solving
-outputs.packages.x86_64-linux
+builtins.attrNames outputs.packages.x86_64-linux
 ```
 
 ### Example
