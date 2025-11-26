@@ -15,7 +15,7 @@ This repository does not need to be cloned. To run the code, do the following:
 nix run github:lyuk98/problem-solving#[coder].[platform].[problem].[language]
 ```
 
-where `[coder]`, `[platform]`, `[problem]`, and `[language]` represent the author, programming platform, problem number, and the source language, respectively. Possible values are as follows:
+where `[coder]`, `[platform]`, `[problem]`, and `[language]` represent the author, programming platform, problem number, and the source language, respectively. Possible values, except `[problem]`, are as follows:
 
 | `coder` | Description |
 | --- | --- |
@@ -33,9 +33,9 @@ where `[coder]`, `[platform]`, `[problem]`, and `[language]` represent the autho
 | `java` | Java (21) |
 | `rs` | Rust (2024) |
 
-Note: code for platform LeetCode cannot be run because it lacks the `main()` method.
+Note: solutions that lack the `main()` method, such as the ones for LeetCode, cannot be run this way.
 
-The packages' names can be found by using `nix repl`:
+Possible solutions can be enumerated by using `nix repl`:
 
 ```sh
 nix repl
@@ -45,7 +45,7 @@ builtins.attrNames outputs.packages.x86_64-linux
 
 ### Example
 
-The following is an example of running the solution for a problem:
+The following is an example of running a solution written in C, for [problem 5430](https://www.acmicpc.net/problem/5430 "5430번: Integer Lists") from Baekjoon Online Judge:
 
 ```sh
 # Prepare sample input
