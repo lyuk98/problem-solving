@@ -1,5 +1,8 @@
 # problem-solving
 
+[![English](https://img.shields.io/badge/Language-English-green.svg)](./README.md)
+[![한국어](https://img.shields.io/badge/%EC%96%B8%EC%96%B4-%ED%95%9C%EA%B5%AD%EC%96%B4-blue.svg)](./README.ko.md)
+
 This repository contains solutions for problems found across multiple code-learning platforms.
 
 ## Try running the code
