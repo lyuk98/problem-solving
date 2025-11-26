@@ -12,7 +12,7 @@ The solutions here can be built and run using [Nix](https://nixos.org/ "Nix & Ni
 This repository does not need to be cloned. To run the code, do the following:
 
 ```sh
-nix run github:lyuk98/problem-solving#[coder].[platform].[problem].[language]
+nix run github:lyuk98/problem-solving#[coder]-[platform]-[problem]-[language]
 ```
 
 where `[coder]`, `[platform]`, `[problem]`, and `[language]` represent the author, programming platform, problem number, and the source language, respectively. Possible values, except `[problem]`, are as follows:

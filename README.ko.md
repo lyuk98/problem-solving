@@ -10,7 +10,7 @@
 이 저장소의 코드는 `flakes`와 `nix-command` [실험 기능](https://nix.dev/manual/nix/latest/contributing/experimental-features)이 활성화된 버전의 [Nix](https://nixos.org/ "Nix & NixOS | Declarative builds and deployments")를 사용하여 빌드하고 실행할 수 있습니다.
 
 ```sh
-nix run github:lyuk98/problem-solving#[작성자].[플랫폼].[문제번호].[언어]
+nix run github:lyuk98/problem-solving#[작성자]-[플랫폼]-[문제번호]-[언어]
 ```
 
 `[작성자]`, `[플랫폼]`, `[문제번호]`, `[언어]`는 각각 코드 작성자, 코딩 플랫폼, 문제 번호와 프로그래밍 언어를 의미합니다. `[문제번호]`를 제외한 가능한 값은 아래에 기술되어 있습니다:
